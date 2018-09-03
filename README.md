@@ -5,7 +5,7 @@
 
 Issue initial [Let's Encrypt](https://letsencrypt.org/) certificate using [Certbot](https://certbot.eff.org/) manually:
 ```
-certbot-auto certonly --manual --preferred-challenges=dns --email your@email.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d *.domain.com
+certbot-auto certonly --manual --preferred-challenges=dns --email your@email.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d *.domain.com -d domain.com
 ```
 
 Edit **config-updatednskey** with relevant information:
