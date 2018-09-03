@@ -1,0 +1,2 @@
+#!/bin/bash
+/opt/certbot/certbot-auto renew --manual-auth-hook /opt/certbot/renew/authenticator.sh --manual-cleanup-hook /opt/certbot/renew/cleanup.sh

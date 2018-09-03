@@ -1,0 +1,15 @@
+[local]
+# gandi.net API (Production) key
+apikey = gAnDIApiKeY
+
+# domain
+domain = domain.com
+
+# TTL (seconds)
+ttl = 1800
+
+# Production API
+api = https://dns.beta.gandi.net/api/v5/
+
+# acme-challenge file path
+challengepath = /var/www/html/.well-known/acme-challenge
